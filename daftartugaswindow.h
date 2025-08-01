@@ -23,11 +23,15 @@ private slots:
     void hapusBaris();
     void cariTugas();
     void kembaliKeMenu();
+    void updateStatusSelesai(QStandardItem *item);
+
 
 private:
     Ui::DaftarTugasWindow *ui;
     QStandardItemModel *model;
     QString fileCSV = "tugas.csv";
+    QStandardItem* hitungStatus(const QString& deadlineStr, bool selesai);
+
 };
 
 #endif // DAFTARTUGASWINDOW_H
