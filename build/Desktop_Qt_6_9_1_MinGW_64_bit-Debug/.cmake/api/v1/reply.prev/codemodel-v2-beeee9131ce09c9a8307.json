@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-99c4672a9f7dd693b716.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ScheduloProject",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ScheduloProject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ScheduloProject-Debug-f136cfc4870a7357f7b5.json",
+					"name" : "ScheduloProject",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ScheduloProject_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ScheduloProject_autogen-Debug-90da75981c84e5220da9.json",
+					"name" : "ScheduloProject_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ScheduloProject_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ScheduloProject_autogen_timestamp_deps-Debug-6b99f031cd96a66bbdcc.json",
+					"name" : "ScheduloProject_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug",
+		"source" : "D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
