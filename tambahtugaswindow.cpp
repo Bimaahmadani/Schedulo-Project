@@ -54,7 +54,7 @@ void TambahTugasWindow::simpanKeCSV(const QString &tugas, const QString &matkul,
 
         QString keteranganBersih = keterangan;
         keteranganBersih.replace("\n", " ");
-        out << tugas << "," << matkul << "," << deadline.toString("yyyy-MM-dd") << "," << keteranganBersih << "\n";
+        out << tugas << "," << matkul << "," << deadline.toString("dd-MM-yyyy") << "," << keteranganBersih << "\n";
 
         file.close();
     }
