@@ -29,5 +29,3 @@ Aplikasi ini merupakan penerapan dari berbagai konsep dasar pemrograman C++, di 
 - `tambahtugaswindow.*` – Dialog untuk menambah tugas baru
 - `daftartugaswindow.*` – Tampilan daftar tugas
 - `tugas.csv` – File penyimpanan tugas
-   ```bash
-   git clone https://github.com/username/ScheduloProject.git
