@@ -18,6 +18,7 @@ DaftarTugasWindow::DaftarTugasWindow(QWidget *parent) :
     ui->tugasView->setModel(model);
     ui->tugasView->setSelectionBehavior(QAbstractItemView::SelectRows);
     ui->tugasView->setEditTriggers(QAbstractItemView::DoubleClicked);
+    ui->tugasView->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 
     connect(ui->searchButton, &QPushButton::clicked, this, &DaftarTugasWindow::cariTugas);
     connect(ui->deleteButton, &QPushButton::clicked, this, &DaftarTugasWindow::hapusBaris);
