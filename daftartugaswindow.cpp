@@ -51,18 +51,27 @@ void DaftarTugasWindow::muatDataDariCSV()
         if (fields.size() < 4) continue;
 
         QList<QStandardItem*> items;
+
+        // Kolom 0-3: Tugas, Mata Kuliah, Deadline, Keterangan (editable seperti biasa)
         for (int i = 0; i < 4; ++i) {
-            items.append(new QStandardItem(fields[i]));
+            QStandardItem *item = new QStandardItem(fields[i]);
+            item->setEditable(true);
+            items.append(item);
         }
 
-        // Selesai: checkbox
+        // Kolom 5: Checkbox "Selesai"
         QString selesaiStr = fields.size() >= 6 ? fields[5] : "0";
         QStandardItem *selesaiItem = new QStandardItem();
         selesaiItem->setCheckable(true);
         selesaiItem->setCheckState(selesaiStr == "1" ? Qt::Checked : Qt::Unchecked);
+        selesaiItem->setFlags(Qt::ItemIsSelectable | Qt::ItemIsUserCheckable | Qt::ItemIsEnabled); // ✅ checkbox aktif
 
-        // Status otomatis
-        items.append(hitungStatus(fields[2], selesaiItem->checkState() == Qt::Checked));
+        // Kolom 4: Status (tidak bisa diedit)
+        QStandardItem *statusItem = hitungStatus(fields[2], selesaiItem->checkState() == Qt::Checked);
+        statusItem->setFlags(statusItem->flags() & ~Qt::ItemIsEditable); // ✅ non-editable
+
+        // Urutan: Tugas, Matkul, Deadline, Keterangan, Status, Selesai
+        items.append(statusItem);
         items.append(selesaiItem);
 
         model->appendRow(items);
@@ -70,6 +79,7 @@ void DaftarTugasWindow::muatDataDariCSV()
 
     file.close();
 }
+
 
 void DaftarTugasWindow::simpanDataKeCSV()
 {
