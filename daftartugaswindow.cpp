@@ -6,6 +6,8 @@
 #include <QStandardItem>
 #include <QModelIndexList>
 #include <QDate>
+#include <QFileDialog>
+#include <QTextStream>
 
 DaftarTugasWindow::DaftarTugasWindow(QWidget *parent) :
     QDialog(parent),
@@ -23,6 +25,7 @@ DaftarTugasWindow::DaftarTugasWindow(QWidget *parent) :
     connect(ui->searchButton, &QPushButton::clicked, this, &DaftarTugasWindow::cariTugas);
     connect(ui->deleteButton, &QPushButton::clicked, this, &DaftarTugasWindow::hapusBaris);
     connect(ui->returnButton, &QPushButton::clicked, this, &DaftarTugasWindow::kembaliKeMenu);
+    connect(ui->downloadButton, &QPushButton::clicked, this, &DaftarTugasWindow::on_downloadButton_clicked);
 
     connect(model, &QStandardItemModel::itemChanged, this, &DaftarTugasWindow::updateStatusSelesai);
 
@@ -159,4 +162,56 @@ QStandardItem* DaftarTugasWindow::hitungStatus(const QString& deadlineStr, bool 
     }
 
     return new QStandardItem(status);
+}
+
+#include <QFileDialog>
+#include <QTextStream>
+
+void DaftarTugasWindow::on_downloadButton_clicked()
+{
+    QItemSelectionModel *selectionModel = ui->tugasView->selectionModel();
+    QModelIndexList selectedIndexes = selectionModel->selectedRows();
+
+    if (selectedIndexes.isEmpty()) {
+        QMessageBox::warning(this, "Tidak Ada Tugas Dipilih", "Silakan pilih baris tugas terlebih dahulu.");
+        return;
+    }
+
+    QString filePath = QFileDialog::getSaveFileName(this, "Simpan Tugas ke TXT", "", "Text Files (*.txt)");
+    if (filePath.isEmpty())
+        return;
+
+    QFile file(filePath);
+    if (!file.open(QIODevice::WriteOnly | QIODevice::Text)) {
+        QMessageBox::warning(this, "Gagal Menyimpan", "Tidak dapat membuka file untuk ditulis.");
+        return;
+    }
+
+    QTextStream out(&file);
+
+    // Header
+    out << "==============================" << "\n";
+    out << "       Daftar Tugas           " << "\n";
+    out << "==============================" << "\n\n";
+
+    for (const QModelIndex &index : selectedIndexes) {
+        int row = index.row();
+        QString tugas      = model->item(row, 0)->text();
+        QString matkul     = model->item(row, 1)->text();
+        QString deadline   = model->item(row, 2)->text();
+        QString keterangan = model->item(row, 3)->text();
+        QString status     = model->item(row, 4)->text();
+        //QString selesai    = model->item(row, 5)->checkState() == Qt::Checked ? "Ya" : "Belum";
+
+        out << "Tugas      : " << tugas << "\n";
+        out << "Mata Kuliah: " << matkul << "\n";
+        out << "Deadline   : " << deadline << "\n";
+        out << "Keterangan : " << keterangan << "\n";
+        out << "Status     : " << status << "\n";
+        //out << "Selesai    : " << selesai << "\n";
+        out << "------------------------------" << "\n";
+    }
+    QMessageBox::information(this, "Berhasil", "Data tugas berhasil disimpan ke file TXT.");
+    file.close();
+
 }

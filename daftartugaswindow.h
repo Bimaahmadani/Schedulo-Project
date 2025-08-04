@@ -24,6 +24,7 @@ private slots:
     void cariTugas();
     void kembaliKeMenu();
     void updateStatusSelesai(QStandardItem *item);
+    void on_downloadButton_clicked();
 
 
 private:

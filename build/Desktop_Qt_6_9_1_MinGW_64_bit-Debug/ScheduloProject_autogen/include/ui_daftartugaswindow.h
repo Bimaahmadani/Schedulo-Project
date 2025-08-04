@@ -29,6 +29,7 @@ public:
     QLineEdit *searchEdit;
     QPushButton *searchButton;
     QPushButton *deleteButton;
+    QPushButton *downloadButton;
 
     void setupUi(QDialog *DaftarTugasWindow)
     {
@@ -58,6 +59,9 @@ public:
         deleteButton = new QPushButton(DaftarTugasWindow);
         deleteButton->setObjectName("deleteButton");
         deleteButton->setGeometry(QRect(400, 90, 90, 30));
+        downloadButton = new QPushButton(DaftarTugasWindow);
+        downloadButton->setObjectName("downloadButton");
+        downloadButton->setGeometry(QRect(520, 90, 100, 30));
 
         retranslateUi(DaftarTugasWindow);
 
@@ -71,6 +75,7 @@ public:
         returnButton->setText(QCoreApplication::translate("DaftarTugasWindow", "Kembali", nullptr));
         searchButton->setText(QCoreApplication::translate("DaftarTugasWindow", "Search", nullptr));
         deleteButton->setText(QCoreApplication::translate("DaftarTugasWindow", "Hapus", nullptr));
+        downloadButton->setText(QCoreApplication::translate("DaftarTugasWindow", "Simpan", nullptr));
     } // retranslateUi
 
 };
