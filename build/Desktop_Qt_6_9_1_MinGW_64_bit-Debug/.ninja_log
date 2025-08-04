@@ -1,86 +1,12 @@
 # ninja log v6
-1096	4671	7758585161177608	CMakeFiles/ScheduloProject.dir/main.cpp.obj	8348c8c34c96779d
-10	255	7758585790167539	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
-10	255	7758585790167539	ScheduloProject_autogen/timestamp	40a6c102b1020c84
-10	255	7758585790167539	ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
-323	4721	7758585793299095	CMakeFiles/ScheduloProject.dir/tambahtugaswindow.cpp.obj	abf2af3e58c6e96c
-10	255	7758585790167539	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/timestamp	40a6c102b1020c84
-1044	4506	7758585160655338	CMakeFiles/ScheduloProject.dir/ScheduloProject_autogen/mocs_compilation.cpp.obj	5e56a7a49bde202
-376	5112	7758585793829118	CMakeFiles/ScheduloProject.dir/daftartugaswindow.cpp.obj	e93365ad33697066
-256	3828	7758585792626458	CMakeFiles/ScheduloProject.dir/menuwindow.cpp.obj	9f403cb66f282a09
-5112	6242	7758585841182787	ScheduloProject.exe	bd3c1bee293e0950
-754	5293	7755673364567363	CMakeFiles/ScheduloProject.dir/taskmanager.cpp.obj	26dcc86acac377c
-11	257	7758586401391556	ScheduloProject_autogen/timestamp	40a6c102b1020c84
-11	257	7758586401391556	ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
-11	257	7758586401391556	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/timestamp	40a6c102b1020c84
-11	257	7758586401391556	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
-258	3497	7758586403858473	CMakeFiles/ScheduloProject.dir/menuwindow.cpp.obj	9f403cb66f282a09
-311	4132	7758586404382404	CMakeFiles/ScheduloProject.dir/tambahtugaswindow.cpp.obj	abf2af3e58c6e96c
-354	4574	7758586404816584	CMakeFiles/ScheduloProject.dir/daftartugaswindow.cpp.obj	e93365ad33697066
-4574	5668	7758586447018469	ScheduloProject.exe	bd3c1bee293e0950
-43	349	7760289334242015	ScheduloProject_autogen/timestamp	40a6c102b1020c84
-43	349	7760289334242015	ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
-43	349	7760289334242015	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/timestamp	40a6c102b1020c84
-43	349	7760289334242015	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
-350	3842	7760289337317889	CMakeFiles/ScheduloProject.dir/menuwindow.cpp.obj	9f403cb66f282a09
-402	4514	7760289337840645	CMakeFiles/ScheduloProject.dir/tambahtugaswindow.cpp.obj	abf2af3e58c6e96c
-448	5033	7760289338293812	CMakeFiles/ScheduloProject.dir/daftartugaswindow.cpp.obj	e93365ad33697066
-5033	6287	7760289384149802	ScheduloProject.exe	bd3c1bee293e0950
-10	297	7760293459411826	ScheduloProject_autogen/timestamp	40a6c102b1020c84
-10	297	7760293459411826	ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
-10	297	7760293459411826	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/timestamp	40a6c102b1020c84
-10	297	7760293459411826	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
-298	3975	7760293462293212	CMakeFiles/ScheduloProject.dir/menuwindow.cpp.obj	9f403cb66f282a09
-346	4834	7760293462769217	CMakeFiles/ScheduloProject.dir/tambahtugaswindow.cpp.obj	abf2af3e58c6e96c
-400	5278	7760293463313113	CMakeFiles/ScheduloProject.dir/daftartugaswindow.cpp.obj	e93365ad33697066
-5278	6418	7760293512094917	ScheduloProject.exe	bd3c1bee293e0950
-11	284	7760293683894111	ScheduloProject_autogen/timestamp	40a6c102b1020c84
-11	284	7760293683894111	ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
-11	284	7760293683894111	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/timestamp	40a6c102b1020c84
-11	284	7760293683894111	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
-285	3939	7760293686635129	CMakeFiles/ScheduloProject.dir/menuwindow.cpp.obj	9f403cb66f282a09
-335	4688	7760293687134693	CMakeFiles/ScheduloProject.dir/tambahtugaswindow.cpp.obj	abf2af3e58c6e96c
-392	5152	7760293687704725	CMakeFiles/ScheduloProject.dir/daftartugaswindow.cpp.obj	e93365ad33697066
-10	1142	7760294258487005	ScheduloProject.exe	bd3c1bee293e0950
-10	257	7760296682131397	ScheduloProject_autogen/timestamp	40a6c102b1020c84
-10	257	7760296682131397	ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
-10	257	7760296682131397	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/timestamp	40a6c102b1020c84
-10	257	7760296682131397	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
-258	3486	7760296684605311	CMakeFiles/ScheduloProject.dir/menuwindow.cpp.obj	9f403cb66f282a09
-307	4185	7760296685098799	CMakeFiles/ScheduloProject.dir/tambahtugaswindow.cpp.obj	abf2af3e58c6e96c
-357	4644	7760296685601784	CMakeFiles/ScheduloProject.dir/daftartugaswindow.cpp.obj	e93365ad33697066
-4644	5707	7760296728467334	ScheduloProject.exe	bd3c1bee293e0950
-11	278	7760300560136068	ScheduloProject_autogen/timestamp	40a6c102b1020c84
-11	278	7760300560136068	ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
-11	278	7760300560136068	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/timestamp	40a6c102b1020c84
-11	278	7760300560136068	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
-279	3978	7760300562822320	CMakeFiles/ScheduloProject.dir/menuwindow.cpp.obj	9f403cb66f282a09
-348	4773	7760300563509167	CMakeFiles/ScheduloProject.dir/tambahtugaswindow.cpp.obj	abf2af3e58c6e96c
-402	5281	7760300564043547	CMakeFiles/ScheduloProject.dir/daftartugaswindow.cpp.obj	e93365ad33697066
-5281	6434	7760300612836723	ScheduloProject.exe	bd3c1bee293e0950
-11	1075	7760324839069391	ScheduloProject_autogen/timestamp	40a6c102b1020c84
-11	1075	7760324839069391	ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
-11	1075	7760324839069391	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/timestamp	40a6c102b1020c84
-11	1075	7760324839069391	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
+11	288	7760331617751788	ScheduloProject_autogen/timestamp	40a6c102b1020c84
+11	288	7760331617751788	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
 1130	4925	7760324840508358	CMakeFiles/ScheduloProject.dir/main.cpp.obj	8348c8c34c96779d
+11	288	7760331617751788	ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
+334	4779	7760331620992593	CMakeFiles/ScheduloProject.dir/tambahtugaswindow.cpp.obj	abf2af3e58c6e96c
+11	288	7760331617751788	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/timestamp	40a6c102b1020c84
 1076	4949	7760324839961046	CMakeFiles/ScheduloProject.dir/ScheduloProject_autogen/mocs_compilation.cpp.obj	5e56a7a49bde202
-1170	5224	7760324840889215	CMakeFiles/ScheduloProject.dir/menuwindow.cpp.obj	9f403cb66f282a09
-1211	5892	7760324841313300	CMakeFiles/ScheduloProject.dir/tambahtugaswindow.cpp.obj	abf2af3e58c6e96c
-1280	6470	7760324842008619	CMakeFiles/ScheduloProject.dir/daftartugaswindow.cpp.obj	e93365ad33697066
-6470	7567	7760324893899270	ScheduloProject.exe	bd3c1bee293e0950
-10	290	7760325970819537	ScheduloProject_autogen/timestamp	40a6c102b1020c84
-10	290	7760325970819537	ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
-10	290	7760325970819537	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/timestamp	40a6c102b1020c84
-10	290	7760325970819537	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
-291	3678	7760325973629628	CMakeFiles/ScheduloProject.dir/menuwindow.cpp.obj	9f403cb66f282a09
-341	4355	7760325974127826	CMakeFiles/ScheduloProject.dir/tambahtugaswindow.cpp.obj	abf2af3e58c6e96c
-388	4993	7760325974599702	CMakeFiles/ScheduloProject.dir/daftartugaswindow.cpp.obj	e93365ad33697066
-4994	6167	7760326020660761	ScheduloProject.exe	bd3c1bee293e0950
-11	271	7760326959632166	ScheduloProject_autogen/timestamp	40a6c102b1020c84
-11	271	7760326959632166	ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
-11	271	7760326959632166	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/timestamp	40a6c102b1020c84
-11	271	7760326959632166	D:/KULIAH/Semester Antara/Alprog/Tugas Besar/ScheduloProject/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/ScheduloProject_autogen/mocs_compilation.cpp	40a6c102b1020c84
-272	3860	7760326962242234	CMakeFiles/ScheduloProject.dir/menuwindow.cpp.obj	9f403cb66f282a09
-328	4595	7760326962793933	CMakeFiles/ScheduloProject.dir/tambahtugaswindow.cpp.obj	abf2af3e58c6e96c
-372	5081	7760326963241573	CMakeFiles/ScheduloProject.dir/daftartugaswindow.cpp.obj	e93365ad33697066
-5082	6189	7760327010341185	ScheduloProject.exe	bd3c1bee293e0950
+376	5256	7760331621414092	CMakeFiles/ScheduloProject.dir/daftartugaswindow.cpp.obj	e93365ad33697066
+289	4095	7760331620541337	CMakeFiles/ScheduloProject.dir/menuwindow.cpp.obj	9f403cb66f282a09
+5256	6345	7760331670206887	ScheduloProject.exe	bd3c1bee293e0950
+754	5293	7755673364567363	CMakeFiles/ScheduloProject.dir/taskmanager.cpp.obj	26dcc86acac377c

@@ -25,7 +25,6 @@ DaftarTugasWindow::DaftarTugasWindow(QWidget *parent) :
     connect(ui->searchButton, &QPushButton::clicked, this, &DaftarTugasWindow::cariTugas);
     connect(ui->deleteButton, &QPushButton::clicked, this, &DaftarTugasWindow::hapusBaris);
     connect(ui->returnButton, &QPushButton::clicked, this, &DaftarTugasWindow::kembaliKeMenu);
-    connect(ui->downloadButton, &QPushButton::clicked, this, &DaftarTugasWindow::on_downloadButton_clicked);
 
     connect(model, &QStandardItemModel::itemChanged, this, &DaftarTugasWindow::updateStatusSelesai);
 
